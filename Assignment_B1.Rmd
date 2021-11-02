@@ -1,7 +1,7 @@
 ---
 title: "Assignment_B1"
 author: "Aditi Nagaraj"
-date: "01/11/2021"
+date: "02/11/2021"
 output: github_document
 ---
 
@@ -50,7 +50,7 @@ We will next dive into writing and testing our function in R.
 
 Throughout this course we have worked with various datasets either in our worksheets or in our mini data analysis projects. These datasets had one thing in common which was a combination of categorical columns and numerical columns. This helped us make various data manipulations and comparisons across the data. One of the data summarisation tasks that we accomplished was to calculate summary statistics for a numerical column based on a categorical column. We did this using the ```group_by``` and ```summarise``` functions from the ```dplyr``` package in R. The ```group_by``` function allowed us to group the results by the various categories of a particular column and the ```summarise``` function allowed us to calculate summary statistics like mean, range, standard deviation etc across those categories. 
 
-Now imagine if we had to do this across a different categorical column or compare two different categorical columns or perform calculations on a different numerical column. We would have to write multiple lines of ``group_by`` and ``summarise`` functions that take different input values. This would increase the probability of introducing errors into the code. To make it less error-prone and easier to follow, I will write my own dplyr function that calculates summary statistics across different inputs of categorical columns from a given dataset. 
+Now imagine if we had to do this across a different categorical column or for two different categorical columns or perform calculations on a different numerical column. We would have to write multiple lines of ``group_by`` and ``summarise`` functions that take different input values. This would increase the probability of introducing errors into the code. To make it less error-prone and easier to follow, I will write my own dplyr function that calculates summary statistics across different inputs of categorical columns from a given dataset. 
 
 My function will calculate the mean and range across user specified columns. 
 

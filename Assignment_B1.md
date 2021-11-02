@@ -1,7 +1,7 @@
 Assignment\_B1
 ================
 Aditi Nagaraj
-01/11/2021
+02/11/2021
 
 # Functions in R
 
@@ -99,8 +99,8 @@ summary statistics like mean, range, standard deviation etc across those
 categories.
 
 Now imagine if we had to do this across a different categorical column
-or compare two different categorical columns or perform calculations on
-a different numerical column. We would have to write multiple lines of
+or for two different categorical columns or perform calculations on a
+different numerical column. We would have to write multiple lines of
 `group_by` and `summarise` functions that take different input values.
 This would increase the probability of introducing errors into the code.
 To make it less error-prone and easier to follow, I will write my own
@@ -296,7 +296,7 @@ test_that("Incorrect column types throw an error.", {
 })
 ```
 
-    ## Test passed 🥳
+    ## Test passed 🌈
 
 -   The second is to show how having all NA values across all categories
     throws the function off since mean and range cannot be computed on
@@ -334,7 +334,7 @@ expect_s3_class(result, "tbl")
 })
 ```
 
-    ## Test passed 🌈
+    ## Test passed 😸
 
 -   The fourth test shows that having NA values distributed between the
     different categories still provides an output in the form of a
@@ -354,7 +354,7 @@ expect_s3_class(result, "tbl")
 })
 ```
 
-    ## Test passed 😀
+    ## Test passed 🎊
 
 -   The fifth test shows that if NA values are confined to a particular
     category the function still runs but gives out a warning message.
@@ -372,7 +372,7 @@ expect_warning(grouping_summarising(input, group = x, summary = y))
 })
 ```
 
-    ## Test passed 🎉
+    ## Test passed 😀
 
 -   The sixth and final test indicates the type of the output generated.
 
@@ -383,4 +383,4 @@ expect_type(result, "list")
 })
 ```
 
-    ## Test passed 🎉
+    ## Test passed 🌈
