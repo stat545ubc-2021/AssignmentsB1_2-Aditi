@@ -296,7 +296,7 @@ test_that("Incorrect column types throw an error.", {
 })
 ```
 
-    ## Test passed 🌈
+    ## Test passed 🎊
 
 -   The second is to show how having all NA values across all categories
     throws the function off since mean and range cannot be computed on
@@ -315,7 +315,7 @@ expect_error(grouping_summarising(input, group = x, summary = y))
 })
 ```
 
-    ## Test passed 🌈
+    ## Test passed 😀
 
 -   The third test shows that having values across the different
     categories successfully provides an output in the form of a tibble.
@@ -334,7 +334,7 @@ expect_s3_class(result, "tbl")
 })
 ```
 
-    ## Test passed 😸
+    ## Test passed 🌈
 
 -   The fourth test shows that having NA values distributed between the
     different categories still provides an output in the form of a
@@ -354,7 +354,7 @@ expect_s3_class(result, "tbl")
 })
 ```
 
-    ## Test passed 🎊
+    ## Test passed 🎉
 
 -   The fifth test shows that if NA values are confined to a particular
     category the function still runs but gives out a warning message.
@@ -372,7 +372,7 @@ expect_warning(grouping_summarising(input, group = x, summary = y))
 })
 ```
 
-    ## Test passed 😀
+    ## Test passed 🌈
 
 -   The sixth and final test indicates the type of the output generated.
 
@@ -383,4 +383,4 @@ expect_type(result, "list")
 })
 ```
 
-    ## Test passed 🌈
+    ## Test passed 🥳

@@ -171,7 +171,7 @@ From the four examples shown below two work and two don't and this was done inte
 grouping_summarising(input = vancouver_trees, group = common_name, summary = diameter)
 ```
 
-```{r error = TRUE }
+```{r, error = TRUE }
 #Testing the function on another dataset from the same datateachr package- apt_buildings. An example that does not work!
 grouping_summarising(input = apt_buildings, group = property_type, summary = facilities_available)
 ```
@@ -181,7 +181,7 @@ grouping_summarising(input = apt_buildings, group = property_type, summary = fac
 grouping_summarising(input = gapminder, group = continent, summary = lifeExp)
 ```
 
-```{r error = TRUE }
+```{r, error = TRUE }
 #Testing function on penguins dataset- An example that does not work!
 grouping_summarising(input = penguins, group = species, summary = island)
 ```
