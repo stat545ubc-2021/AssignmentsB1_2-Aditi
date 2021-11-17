@@ -1,8 +1,7 @@
 #' @title A bundle of dplyr functions
 #'
-#' @description This function calculates the summary statistics such as mean and range grouped by a categorical variable of your choice for an input dataset.
+#' @description This function calculates the summary statistics such as mean and range for a numerical variable grouped by a categorical variable (both of which are your choice) from an input dataset. 
 #' It uses the dplyr functions group_by and summarise to output a tibble or data frame depending on your input data type class.
-#'
 #' @param input A dataframe or tibble input.
 #' @param group A categorical column in the dataframe/tibble that should be used for grouping.
 #' @param summary A numerical column for which summary statistics are to be computed.

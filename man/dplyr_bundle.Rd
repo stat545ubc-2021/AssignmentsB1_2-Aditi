@@ -17,7 +17,7 @@ dplyr_bundle(input, group, summary)
 A Tibble or dataframe built from a list and containing four columns- categorical variable by which the data is grouped, mean, minimum, maximum computed for a numerical variable.
 }
 \description{
-This function calculates the summary statistics such as mean and range grouped by a categorical variable of your choice for an input dataset.
+This function calculates the summary statistics such as mean and range for a numerical variable grouped by a categorical variable (both of which are your choice) from an input dataset.
 It uses the dplyr functions group_by and summarise to output a tibble or data frame depending on your input data type class.
 }
 \examples{
