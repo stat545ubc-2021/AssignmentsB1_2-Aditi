@@ -6,7 +6,7 @@ This folder includes all of the documents for [Assignment B1](https://stat545.st
 ## Repository Contents 
 - [x] The folder contains the following documents: 
 
-1. ``` README.md``` : you are reading this file - it explains the repository and its contents. 
+1. ``` README.md``` : you are reading this file - it explains the folder and its contents. 
 2. ```Assignmenment_B1.Rmd``` : An RMD file for assignment b1.
 3. ```Assignmenment_B1.md``` : The knit product of the rmd file.
 
