@@ -12,6 +12,7 @@ RoxygenNote: 7.1.2
 Imports: 
     datateachr,
     dplyr,
+    gapminder,
     magrittr,
     palmerpenguins,
     rlang
