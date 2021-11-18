@@ -13,7 +13,7 @@ component is a folder called `Assignment_B1` which contains a function,
 its description and usage. This is included within a package called
 `packageAditi` which is the second component of this repository. A short
 description of the function along with its usage and test cases are
-provided in the path- `/Assignment_B1/Assignment_B1.md` which was
+provided in the path- `Assignment_B1/Assignment_B1.md` which was
 submitted as part of Assignment B1.
 
 For Assignment B2, the aforementioned function was wrapped in an R
@@ -68,20 +68,8 @@ installed as follows:
 devtools::install_github("stat545ubc-2021/packageAditi")
 ```
 
-    ## Downloading GitHub repo stat545ubc-2021/packageAditi@HEAD
-
-    ## 
-    ##      checking for file ‘/tmp/RtmpmTdO9c/remotes18664747d90c/stat545ubc-2021-packageAditi-ba04386/DESCRIPTION’ ...  ✓  checking for file ‘/tmp/RtmpmTdO9c/remotes18664747d90c/stat545ubc-2021-packageAditi-ba04386/DESCRIPTION’
-    ##   ─  preparing ‘packageAditi’:
-    ##      checking DESCRIPTION meta-information ...  ✓  checking DESCRIPTION meta-information
-    ##   ─  checking for LF line-endings in source and make files and shell scripts
-    ##   ─  checking for empty or unneeded directories
-    ##   ─  building ‘packageAditi_0.1.0.tar.gz’
-    ##      
-    ## 
-
-    ## Installing package into '/home/aditi/R/x86_64-pc-linux-gnu-library/3.6'
-    ## (as 'lib' is unspecified)
+    ## Skipping install of 'packageAditi' from a github remote, the SHA1 (14f445a7) has not changed since last install.
+    ##   Use `force = TRUE` to force installation
 
 ## Example Usage
 
@@ -106,7 +94,7 @@ species. Here the categorical variable would be `species` and numerical
 variable would be `flipper_length_mm`.
 
 ``` r
-dplyr_bundle(palmerpenguins::penguins, group = species, summary = flipper_length_mm)
+packageAditi::dplyr_bundle(palmerpenguins::penguins, group = species, summary = flipper_length_mm)
 ```
 
     ## # A tibble: 3 × 4
@@ -125,7 +113,7 @@ folder. The file is called `Abundance.csv`
 
 ``` r
 data = read.csv("data-raw/Abundance.csv", header = TRUE, sep = ",")
-dplyr_bundle(data, lineage, TPM)
+packageAditi::dplyr_bundle(data, lineage, TPM)
 ```
 
     ## # A tibble: 4 × 4
