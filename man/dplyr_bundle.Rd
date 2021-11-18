@@ -14,7 +14,7 @@ dplyr_bundle(input, group, summary)
 \item{summary}{A numerical column for which summary statistics are to be computed.}
 }
 \value{
-A Tibble or dataframe built from a list and containing four columns- categorical variable by which the data is grouped, mean, minimum, maximum computed for a numerical variable.
+A Tibble containing four columns- categorical variable by which the data is grouped, mean, minimum, maximum computed for a numerical variable.
 }
 \description{
 This function calculates the summary statistics such as mean and range for a numerical variable grouped by a categorical variable (both of which are your choice) from an input dataset.

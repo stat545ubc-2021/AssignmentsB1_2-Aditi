@@ -5,7 +5,7 @@
 #' @param input A dataframe or tibble input.
 #' @param group A categorical column in the dataframe/tibble that should be used for grouping.
 #' @param summary A numerical column for which summary statistics are to be computed.
-#' @return A Tibble or dataframe built from a list and containing four columns- categorical variable by which the data is grouped, mean, minimum, maximum computed for a numerical variable.
+#' @return A Tibble containing four columns- categorical variable by which the data is grouped, mean, minimum, maximum computed for a numerical variable.
 #' @examples
 #' dplyr_bundle(datateachr::vancouver_trees, group = common_name, summary = diameter)
 #' dplyr_bundle(palmerpenguins::penguins, group = island, summary = flipper_length_mm)
