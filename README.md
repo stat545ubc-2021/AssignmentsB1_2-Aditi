@@ -71,7 +71,7 @@ devtools::install_github("stat545ubc-2021/SummaryStat")
     ## Downloading GitHub repo stat545ubc-2021/SummaryStat@HEAD
 
     ## 
-    ##      checking for file ‘/tmp/RtmpDycTGY/remotes295ee874c01/stat545ubc-2021-SummaryStat-83bbf25/DESCRIPTION’ ...  ✓  checking for file ‘/tmp/RtmpDycTGY/remotes295ee874c01/stat545ubc-2021-SummaryStat-83bbf25/DESCRIPTION’
+    ##      checking for file ‘/tmp/Rtmp3cfTD1/remotes2af64e3029ae/stat545ubc-2021-SummaryStat-41023f7/DESCRIPTION’ ...  ✓  checking for file ‘/tmp/Rtmp3cfTD1/remotes2af64e3029ae/stat545ubc-2021-SummaryStat-41023f7/DESCRIPTION’
     ##   ─  preparing ‘SummaryStat’:
     ##      checking DESCRIPTION meta-information ...  ✓  checking DESCRIPTION meta-information
     ##   ─  checking for LF line-endings in source and make files and shell scripts
@@ -80,10 +80,10 @@ devtools::install_github("stat545ubc-2021/SummaryStat")
     ##      
     ## 
 
-    ## Installing package into '/tmp/RtmpDJVf62/temp_libpath238a66ee9dea'
+    ## Installing package into '/tmp/RtmpDJVf62/temp_libpath238a5fb37f2'
     ## (as 'lib' is unspecified)
 
-## Example Usage
+## Example Usage:
 
 As specified in the package description, the `dplyr_bundle` function
 from the package can be used for publicly available datasets and user

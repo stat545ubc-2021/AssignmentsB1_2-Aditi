@@ -42,7 +42,7 @@ The development version from [GitHub](https://github.com/) can be installed as f
 devtools::install_github("stat545ubc-2021/SummaryStat")
 ```
 
-## Example Usage
+## Example Usage:
 
 As specified in the package description, the ```dplyr_bundle``` function from the package can be used for publicly available datasets and user input datasets as well. The next few code chunks show instances of using the function for both of these cases. 
 
