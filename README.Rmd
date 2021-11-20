@@ -19,7 +19,7 @@ For Assignment B2, the aforementioned function was wrapped in an R package. A de
 
 **Package version:** 0.1.0
 
-```SummaryStat``` is a package made by Aditi Nagaraj Nallan for the STAT545B graduate course at The University of British Columbia. This package was made in R using the ```devtools``` package and is mainly used for calculating and plotting various summary statistics across different numerical and categorical variables from input datasets. The main goal of this package is to make exploratory data analysis efficient and easy for users. 
+```SummaryStat``` is a package made by Aditi Nagaraj Nallan for the STAT545B graduate course at The University of British Columbia. This package was made in R using the ```devtools``` package and is mainly used for calculating various summary statistics across different numerical and categorical variables from input datasets. The main goal of this package is to make exploratory data analysis efficient and easy for users. 
 
 Currently, this package contains only one function called ```dplyr_bundle```. 
 
@@ -51,7 +51,7 @@ library(SummaryStat)
 
 **1. Publicly available datasets**
 
-There are many publicly available datasets within packages such as ``gapminder``, ``palmerpenguins`` and ``datateachr``. One of these datasets that I will show here is the penguins dataset from the palmerpenguins package. The following example uses the ```dplyr_bundle``` function to calculate mean and range of the flipper length of different penguin species. Here the categorical variable would be ``species`` and numerical variable would be ``flipper_length_mm``. 
+There are many publicly available datasets within packages such as ``gapminder``, ``palmerpenguins`` and ``datateachr``. One of these datasets that I will show here is the ``penguins`` dataset from the ``palmerpenguins`` package. The following example uses the ```dplyr_bundle``` function to calculate mean and range of the flipper length of different penguin species. Here the categorical variable would be ``species`` and numerical variable would be ``flipper_length_mm``. 
 
 ```{r}
 SummaryStat::dplyr_bundle(palmerpenguins::penguins, group = species, summary = flipper_length_mm)

@@ -31,10 +31,9 @@ example usage is provided below as part of this README file.
 `SummaryStat` is a package made by Aditi Nagaraj Nallan for the STAT545B
 graduate course at The University of British Columbia. This package was
 made in R using the `devtools` package and is mainly used for
-calculating and plotting various summary statistics across different
-numerical and categorical variables from input datasets. The main goal
-of this package is to make exploratory data analysis efficient and easy
-for users.
+calculating various summary statistics across different numerical and
+categorical variables from input datasets. The main goal of this package
+is to make exploratory data analysis efficient and easy for users.
 
 Currently, this package contains only one function called
 `dplyr_bundle`.
@@ -71,16 +70,16 @@ devtools::install_github("stat545ubc-2021/SummaryStat")
     ## Downloading GitHub repo stat545ubc-2021/SummaryStat@HEAD
 
     ## 
-    ##      checking for file ‘/tmp/RtmpdQ8nwQ/remotes2c7c11f7ab5/stat545ubc-2021-SummaryStat-611b1b8/DESCRIPTION’ ...  ✓  checking for file ‘/tmp/RtmpdQ8nwQ/remotes2c7c11f7ab5/stat545ubc-2021-SummaryStat-611b1b8/DESCRIPTION’
+    ##      checking for file ‘/tmp/RtmpoO8bey/remotes13c96ee48ba1/stat545ubc-2021-SummaryStat-4128d98/DESCRIPTION’ ...  ✓  checking for file ‘/tmp/RtmpoO8bey/remotes13c96ee48ba1/stat545ubc-2021-SummaryStat-4128d98/DESCRIPTION’
     ##   ─  preparing ‘SummaryStat’:
-    ##      checking DESCRIPTION meta-information ...  ✓  checking DESCRIPTION meta-information
+    ##    checking DESCRIPTION meta-information ...  ✓  checking DESCRIPTION meta-information
     ##   ─  checking for LF line-endings in source and make files and shell scripts
     ##   ─  checking for empty or unneeded directories
     ##   ─  building ‘SummaryStat_0.1.0.tar.gz’
     ##      
     ## 
 
-    ## Installing package into '/home/aditi/R/x86_64-pc-linux-gnu-library/3.6'
+    ## Installing package into '/tmp/Rtmpb4SWVq/temp_libpath121953201a84'
     ## (as 'lib' is unspecified)
 
 ## Example Usage
@@ -99,11 +98,11 @@ library(SummaryStat)
 
 There are many publicly available datasets within packages such as
 `gapminder`, `palmerpenguins` and `datateachr`. One of these datasets
-that I will show here is the penguins dataset from the palmerpenguins
-package. The following example uses the `dplyr_bundle` function to
-calculate mean and range of the flipper length of different penguin
-species. Here the categorical variable would be `species` and numerical
-variable would be `flipper_length_mm`.
+that I will show here is the `penguins` dataset from the
+`palmerpenguins` package. The following example uses the `dplyr_bundle`
+function to calculate mean and range of the flipper length of different
+penguin species. Here the categorical variable would be `species` and
+numerical variable would be `flipper_length_mm`.
 
 ``` r
 SummaryStat::dplyr_bundle(palmerpenguins::penguins, group = species, summary = flipper_length_mm)
