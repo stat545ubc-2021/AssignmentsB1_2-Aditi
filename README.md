@@ -71,7 +71,7 @@ devtools::install_github("stat545ubc-2021/SummaryStat")
     ## Downloading GitHub repo stat545ubc-2021/SummaryStat@HEAD
 
     ## 
-    ##      checking for file ‘/tmp/RtmpenFfj1/remotes3490506a7f2d/stat545ubc-2021-SummaryStat-ecd6714/DESCRIPTION’ ...  ✓  checking for file ‘/tmp/RtmpenFfj1/remotes3490506a7f2d/stat545ubc-2021-SummaryStat-ecd6714/DESCRIPTION’
+    ##      checking for file ‘/tmp/RtmpDxQq7n/remotes362d71283e37/stat545ubc-2021-SummaryStat-6ea5417/DESCRIPTION’ ...  ✓  checking for file ‘/tmp/RtmpDxQq7n/remotes362d71283e37/stat545ubc-2021-SummaryStat-6ea5417/DESCRIPTION’
     ##   ─  preparing ‘SummaryStat’:
     ##      checking DESCRIPTION meta-information ...  ✓  checking DESCRIPTION meta-information
     ##   ─  checking for LF line-endings in source and make files and shell scripts
@@ -80,7 +80,7 @@ devtools::install_github("stat545ubc-2021/SummaryStat")
     ##      
     ## 
 
-    ## Installing package into '/tmp/Rtmpa9Dsod/temp_libpath3325257a92e9'
+    ## Installing package into '/tmp/Rtmpa9Dsod/temp_libpath332559bdbad9'
     ## (as 'lib' is unspecified)
 
 ## Example Usage:
@@ -137,6 +137,6 @@ SummaryStat::dplyr_bundle(data, lineage, TPM)
     ## 4 Deltaproteobacteria    14.7     1.45    53.3
 
 To use your own dataset as shown above, read the file from the
-appropriate location on your system and store it as a dataframe. Load
-the package `SummaryStat` and then call the function `dplyr_bundle` to
-compute summary statistics.
+appropriate location on your system and store it. Load the package
+`SummaryStat` and then call the function `dplyr_bundle` to compute
+summary statistics for the stored data.

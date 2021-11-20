@@ -68,4 +68,4 @@ data = read.csv("https://raw.githubusercontent.com/stat545ubc-2021/SummaryStat/m
 SummaryStat::dplyr_bundle(data, lineage, TPM)
 ```
 
-To use your own dataset as shown above, read the file from the appropriate location on your system and store it as a dataframe. Load the package ``SummaryStat`` and then call the function ``dplyr_bundle`` to compute summary statistics.
+To use your own dataset as shown above, read the file from the appropriate location on your system and store it. Load the package ``SummaryStat`` and then call the function ``dplyr_bundle`` to compute summary statistics for the stored data.
