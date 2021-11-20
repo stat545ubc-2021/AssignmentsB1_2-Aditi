@@ -11,9 +11,10 @@ This github repository contains two components encompassing Assignments-
 graduate course [STAT 545](https://stat545.stat.ubc.ca/). The first
 component is a folder called `Assignment_B1` which contains a function,
 its description and usage. This is included within a package called
-`SummaryStat` which is the second component of this repository. A short
-description of the function along with its usage and test cases are
-provided in the path- `Assignment_B1/Assignment_B1.md` which was
+`SummaryStat` which is the second component of this repository.
+
+A short description of the function along with its usage and test cases
+are provided in the path- `Assignment_B1/Assignment_B1.md` which was
 submitted as part of Assignment B1.
 
 For Assignment B2, the aforementioned function was wrapped in an R
@@ -70,7 +71,7 @@ devtools::install_github("stat545ubc-2021/SummaryStat")
     ## Downloading GitHub repo stat545ubc-2021/SummaryStat@HEAD
 
     ## 
-    ##      checking for file ‘/tmp/RtmpNPEbdd/remotes19fc1b60a5f2/stat545ubc-2021-SummaryStat-b6f0fb1/DESCRIPTION’ ...  ✓  checking for file ‘/tmp/RtmpNPEbdd/remotes19fc1b60a5f2/stat545ubc-2021-SummaryStat-b6f0fb1/DESCRIPTION’
+    ##      checking for file ‘/tmp/RtmpDycTGY/remotes295ee874c01/stat545ubc-2021-SummaryStat-83bbf25/DESCRIPTION’ ...  ✓  checking for file ‘/tmp/RtmpDycTGY/remotes295ee874c01/stat545ubc-2021-SummaryStat-83bbf25/DESCRIPTION’
     ##   ─  preparing ‘SummaryStat’:
     ##      checking DESCRIPTION meta-information ...  ✓  checking DESCRIPTION meta-information
     ##   ─  checking for LF line-endings in source and make files and shell scripts
@@ -79,7 +80,7 @@ devtools::install_github("stat545ubc-2021/SummaryStat")
     ##      
     ## 
 
-    ## Installing package into '/tmp/Rtmpgjm8o9/temp_libpath15477f2ef2cf'
+    ## Installing package into '/tmp/RtmpDJVf62/temp_libpath238a66ee9dea'
     ## (as 'lib' is unspecified)
 
 ## Example Usage

@@ -7,7 +7,9 @@ output: github_document
 
 # Overview:
 
-This github repository contains two components encompassing Assignments- [B1](https://stat545.stat.ubc.ca/assignments/assignment-b1/) and [B2](https://stat545.stat.ubc.ca/assignments/assignment-b2/) in the UBC graduate course [STAT 545](https://stat545.stat.ubc.ca/). The first component is a folder called ```Assignment_B1``` which contains a function, its description and usage. This is included within a package called ```SummaryStat``` which is the second component of this repository. A short description of the function along with its usage and test cases are provided in the path- ```Assignment_B1/Assignment_B1.md``` which was submitted as part of Assignment B1. 
+This github repository contains two components encompassing Assignments- [B1](https://stat545.stat.ubc.ca/assignments/assignment-b1/) and [B2](https://stat545.stat.ubc.ca/assignments/assignment-b2/) in the UBC graduate course [STAT 545](https://stat545.stat.ubc.ca/). The first component is a folder called ```Assignment_B1``` which contains a function, its description and usage. This is included within a package called ```SummaryStat``` which is the second component of this repository. 
+
+A short description of the function along with its usage and test cases are provided in the path- ```Assignment_B1/Assignment_B1.md``` which was submitted as part of Assignment B1. 
 
 For Assignment B2, the aforementioned function was wrapped in an R package. A description of the package, installation instructions and example usage is provided below as part of this README file. 
 
