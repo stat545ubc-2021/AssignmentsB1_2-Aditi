@@ -71,7 +71,7 @@ devtools::install_github("stat545ubc-2021/SummaryStat")
     ## Downloading GitHub repo stat545ubc-2021/SummaryStat@HEAD
 
     ## 
-    ##      checking for file ‘/tmp/Rtmp3cfTD1/remotes2af64e3029ae/stat545ubc-2021-SummaryStat-41023f7/DESCRIPTION’ ...  ✓  checking for file ‘/tmp/Rtmp3cfTD1/remotes2af64e3029ae/stat545ubc-2021-SummaryStat-41023f7/DESCRIPTION’
+    ##      checking for file ‘/tmp/RtmpenFfj1/remotes3490506a7f2d/stat545ubc-2021-SummaryStat-ecd6714/DESCRIPTION’ ...  ✓  checking for file ‘/tmp/RtmpenFfj1/remotes3490506a7f2d/stat545ubc-2021-SummaryStat-ecd6714/DESCRIPTION’
     ##   ─  preparing ‘SummaryStat’:
     ##      checking DESCRIPTION meta-information ...  ✓  checking DESCRIPTION meta-information
     ##   ─  checking for LF line-endings in source and make files and shell scripts
@@ -80,7 +80,7 @@ devtools::install_github("stat545ubc-2021/SummaryStat")
     ##      
     ## 
 
-    ## Installing package into '/tmp/RtmpDJVf62/temp_libpath238a5fb37f2'
+    ## Installing package into '/tmp/Rtmpa9Dsod/temp_libpath3325257a92e9'
     ## (as 'lib' is unspecified)
 
 ## Example Usage:
@@ -124,7 +124,7 @@ provided along with this package and is located in the `data-raw`
 folder. The file is called `Abundance.csv`
 
 ``` r
-data = read.csv("data-raw/Abundance.csv", header = TRUE, sep = ",")
+data = read.csv("https://raw.githubusercontent.com/stat545ubc-2021/SummaryStat/main/data-raw/Abundance.csv", header = TRUE, sep = ",")
 SummaryStat::dplyr_bundle(data, lineage, TPM)
 ```
 

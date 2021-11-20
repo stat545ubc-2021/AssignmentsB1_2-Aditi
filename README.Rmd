@@ -64,7 +64,7 @@ SummaryStat::dplyr_bundle(palmerpenguins::penguins, group = species, summary = f
 These datasets can be anything that the user is currently analyzing or will analyze in the future. An example dataset to test the function is provided along with this package and is located in the ``data-raw`` folder. The file is called ``Abundance.csv``
 
 ```{r}
-data = read.csv("data-raw/Abundance.csv", header = TRUE, sep = ",")
+data = read.csv("https://raw.githubusercontent.com/stat545ubc-2021/SummaryStat/main/data-raw/Abundance.csv", header = TRUE, sep = ",")
 SummaryStat::dplyr_bundle(data, lineage, TPM)
 ```
 
